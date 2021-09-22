@@ -11,17 +11,29 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 95vh;
+    height: fit-content;
     margin-top: 5em;
+    background: #FFFFFF;
 }
 
 .header {
     width: 85%;
+    margin-top: 3em;
+    /* border: solid red; */
+    height: max-content;
 }
 
 .logo {
     display: flex;
-    width: 75vw;
+    /* width: 75vw; */
+    justify-content: center;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.logo img {
+    width: 4em;
+    height: 4em;
 }
 
 .logo_name,
@@ -36,6 +48,11 @@ body {
     font-size: 20px;
 }
 
+main img {
+    width: 300.57px;
+    height: 210.11px;
+}
+
 .paragraph {
     width: 320px;
     height: 100px;
@@ -47,7 +64,7 @@ body {
 
 .text_greetings {
     padding-top: 1.5em;
-    padding-bottom: .5em;
+    padding-bottom: 1em;
     height: fit-content;
 }
 
@@ -155,10 +172,6 @@ footer {
     main img {
         width: 632.57px;
         height: 400.11px;
-    }
-    .logo img {
-        width: 4em;
-        height: 4em;
     }
     .footer_logo {
         display: flex;
