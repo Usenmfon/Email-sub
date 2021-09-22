@@ -136,6 +136,11 @@ footer {
     font-size: 21px;
 }
 
+.footer_logo {
+    display: flex;
+    width: 75vw;
+}
+
 .quick_links {
     margin-top: 2em;
 }
@@ -172,10 +177,6 @@ footer {
     main img {
         width: 632.57px;
         height: 400.11px;
-    }
-    .footer_logo {
-        display: flex;
-        width: 75vw;
     }
     .content {
         margin: 8em;
