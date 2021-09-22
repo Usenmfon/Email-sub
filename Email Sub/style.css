@@ -54,11 +54,12 @@ main img {
 }
 
 .paragraph {
-    width: 320px;
+    width: 290px;
     height: 100px;
-    font-size: 28px;
+    font-size: 18px;
     text-align: justify;
     color: #1f1d1d;
+    /* border: solid black; */
     /* word-spacing: .1em; */
 }
 
@@ -66,6 +67,7 @@ main img {
     padding-top: 1.5em;
     padding-bottom: 1em;
     height: fit-content;
+    /* border: solid red; */
 }
 
 .text_body,
@@ -91,14 +93,15 @@ main {
 footer {
     align-items: flex-start;
     border-top: solid #C4C4C4;
-    width: 20rem;
+    width: 18rem;
     padding-top: .5em;
     margin-top: 5em;
+    /* border: solid red; */
 }
 
 .footer_link {
     display: flex;
-    font-size: 21px;
+    font-size: 18px;
 }
 
 .footer_link a {
@@ -110,16 +113,19 @@ footer {
 .footer_link_tags {
     margin-top: 2em;
     border-top: solid #C4C4C4;
+    font-size: 18px;
+    /* border: solid red; */
+    width: 90%;
 }
 
 .footer_link_tags_text {
-    width: 340px;
+    /* width: 340px; */
     height: fit-content;
-    font-size: 25px;
+    /* font-size: 25px; */
     line-height: 30px;
     text-align: justify;
     color: #1f1d1d;
-    word-spacing: .1em;
+    /* word-spacing: .1em; */
 }
 
 .footer_link_tags ul {
@@ -133,7 +139,7 @@ footer {
 .footer_link_tags ul li a {
     color: #999999;
     text-decoration: none;
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 
 .footer_logo {
@@ -187,14 +193,19 @@ footer {
     }
     .paragraph {
         width: 25em;
+        font-size: 28px;
     }
     .header,
     main,
     footer {
         width: 60%;
     }
+    .footer_link {
+        font-size: 21px;
+    }
     .footer_link_tags {
-        width: 80%;
+        width: 95%;
+        font-size: 25px;
     }
     .footer_link_tags_text {
         display: flex;
@@ -203,11 +214,12 @@ footer {
     }
     .footer_link_tags ul li {
         display: inline;
-        margin-left: 5em;
+        margin-left: 3.5em;
     }
     .footer_link_tags ul {
         display: flex;
         align-content: center;
         justify-content: center;
+        /* border: solid red; */
     }
 }
