@@ -59,7 +59,7 @@ main img {
     font-size: 28px;
     text-align: justify;
     color: #1f1d1d;
-    word-spacing: .1em;
+    /* word-spacing: .1em; */
 }
 
 .text_greetings {
