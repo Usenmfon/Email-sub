@@ -32,8 +32,8 @@ body {
 }
 
 .logo img {
-    width: 4em;
-    height: 4em;
+    width: 3.5em;
+    height: 3.5em;
 }
 
 .logo_name,
@@ -54,7 +54,7 @@ main img {
 }
 
 .paragraph {
-    width: 290px;
+    width: 280px;
     height: 100px;
     font-size: 18px;
     text-align: justify;
