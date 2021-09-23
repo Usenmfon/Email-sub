@@ -174,7 +174,7 @@ footer {
         height: fit-content;
     }
     main img {
-        width: 100%;
+        width: 490px;
         height: 400.11px;
     }
     .content {
@@ -209,5 +209,12 @@ footer {
         display: flex;
         justify-content: flex-start;
         align-content: center;
+    }
+}
+
+@media only screen and (min-width: 958px) {
+    main img {
+        width: 650.12px;
+        height: 412.11px;
     }
 }
