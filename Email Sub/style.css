@@ -219,7 +219,8 @@ footer {
 
 @media only screen and (min-width: 958px) {
     main img {
-        width: 650.12px;
-        height: 412.11px;
+        margin-left: .5em;
+        width: 95%;
+        height: fit-content;
     }
 }
