@@ -59,11 +59,10 @@ main img {
     width: 300.57px;
     height: 210.11px;
     padding: 0 .5em;
-    border: solid green;
 }
 
 .paragraph {
-    width: 280px;
+    width: 310px;
     height: 100px;
     font-size: 18px;
     text-align: justify;
@@ -71,7 +70,6 @@ main img {
 }
 
 p {
-    border: solid red;
     padding-left: .5em;
 }
 
